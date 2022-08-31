@@ -38,4 +38,40 @@ O protocolo **HTTP** foi criado em 1990, ele é extensível e evolui ao longo do
 - **autorização** (para controlar quem tem acesso a determinada informação).
 - **registro de informação** (permite o armazenamento de informações de histórico).
 
-## **Cliente: o agente-usuário**
+### **Cliente: o agente-usuário**
+
+**Agente-usuário** é qualquer ferramenta que age em nome do usuário, geralmente o navegador.
+
+O navegador é sempre a entidade que realiza as requisições.
+
+Uma página da web é um documento hipertexto (HTML). Isso significa que algumas partes do documento são links, que conectam a outras páginas, facilmente acessíveis por cliques do mouse, permitindo o usuário a navegar pela a internet.
+
+### **O servidor de páginas web**
+
+Do outro lado do canal de comunicação está o servidor, que fornece as informações requisitadas pelo navegador, podendo ser mais de um dividindo as cargas.
+
+### **Fluxo HTTP**
+
+Passo a passo de comunicação entre um cliente e um servidor.
+
+1. Abre uma conexão TCP;
+2. Envia mensagem HTTP:
+
+        GET / HTTP/1.1
+        Host: developer.mozilla.org
+        Accept-Language: fr
+
+3. Lê a resposta do servidor:
+
+        HTTP/1.1 200 OK
+        Date: Sat, 09 Oct 2010 14:28:02 GMT
+        Server: Apache
+        Last-Modified: Tue, 01 Dec 2009 20:18:22 GMT
+        ETag: "51142bc1-7449-479b075b2891b"
+        Accept-Ranges: bytes
+        Content-Length: 29769
+        Content-Type: text/html
+
+        <!DOCTYPE html... (here comes the 29769 bytes of the requested web page)
+
+4. Fecha ou reutiliza a requisição para conexões futuras.
