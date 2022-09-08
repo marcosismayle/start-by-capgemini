@@ -20,7 +20,7 @@ Como funciona a Internet
 
 ## **Visão Geral**
 
-**HTTP** é um protocolo que visa a optenção de recursos, como documentos HTML. É um tipo de procolo cliente-servidor, o que significa que as requisições são feitas pelo navegador, ou seja, o destinatário. O **HTTP** é a base de todas as trocas de informações na Web.
+**HTTP** é um protocolo que visa a obtenção de recursos, como documentos HTML. É um tipo de procolo cliente-servidor, o que significa que as requisições são feitas pelo navegador, ou seja, o destinatário. O **HTTP** é a base de todas as trocas de informações na Web.
 
 **Solicitações:** ou *request*, ou também requisições, são as mensagens enviadas pelo cliente ao servidor.
 **Respostas:** ou *responses* são as informações enviadas do servidor ao cliente como resposta a uma *request*.
