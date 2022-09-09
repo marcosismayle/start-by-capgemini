@@ -20,7 +20,7 @@ Temas abordados:
 
 #### **Servidor**
 
-- Um servidor pode ser qualquer computador registrado a um DNS, com sistema de computação centralizado que fornece serviços a uma rede de computadores, chamada de cliente.
+- Um servidor pode ser qualquer computador registrado a um DNS, mas não é muito eficiente. Para isso temos os data centers, com sistema de computação centralizado que fornece serviços a uma rede de computadores, chamada de cliente.
 
 #### **Data center**
 
@@ -28,15 +28,17 @@ Temas abordados:
 
 #### **Hospedagem**
 
-- É um serviço que permite armazenamento de dados de site e aplicativos em um servidor.
+- É um serviço que permite armazenamento de dados de site e aplicativos em um servidor. Ao contratar um serviço de hospedagens estamos contratando a infraestrutura de um data center, com seus servidores, rotedadores, refrigeração e etc.
 
 #### **Conteúdo estático x conteúdo dinâmico**
 
-- Um site com conteúdo estático, basicamente mostra o mesmo conteúdo para os usuários, já no conteúdo dinâmico há uma possibilidade maior de interações e variações no conteúdo apresentado.
+- Conteúdo estático é basicamente um arquivo que já existe no servidor, como vídeos, imagens e textos, já o conteúdo dinâmico é gerado por uma aplicação e entregue ao usuário pelo servidor web.
 
 #### **Servidor web – Como funciona**
 
 - Servidor web ou *Web Server* refere-se a uma máquina ou software, ou ambos trabalhando juntos.
+
+    ![Esquema Servidor Web](/assets/images/servidor-web.jpg)
 
 - Como hardware, é um computador que armazena arquivos que compoem um site e os entrega para o dispositivo do usuário.
 
@@ -48,13 +50,19 @@ Temas abordados:
 
 - É utilizado por uma rede de usuários compartilhando os mesmos recursos de uma máquina.
 
+![Servidor Compartilhado](/assets/images/servidor-compartilhado.jpg)
+
 #### **Servidor dedicado**
 
 - É um servidor físico exclusivo para um determinado usuário, ou seja não compartilha recursos com outro clientes.
 
+![Servidor Dedicado](/assets/images/servidor-dedicado.jpg)
+
 #### **VPS – Servidores virtualmente privados**
 
 - É um servidor virtual privado, *virtual private server*. Oferece uma máquina virtual privada separada de outras estâcias
+
+![Servidores Virtualmente Privados](/assets/images/vps.jpg)
 
 ### Aula 04 – Principais softwares de servidores web
 
@@ -65,6 +73,8 @@ Temas abordados:
 #### **NGiNX**
 
 - Nginx é um servidor leve de HTTP, proxy reverso, proxy de e-mail IMAP/POP3, feito por Igor Sysoev em 2005, sob licença BSD-like 2-clause. O Nginx consome menos memória que o Apache, pois lida com requisições Web do tipo “event-based web server”
+
+- Muito usado para entrega de conteúdo estático e como cache de outros servidores.
 
 #### **Microsoft IIS**
 

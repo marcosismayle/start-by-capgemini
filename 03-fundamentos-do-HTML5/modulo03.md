@@ -1,19 +1,25 @@
-# Fundamentos do HTML - Módulo 03
+# FUNDAMENTOS DO HTML5
 
-## Aula 02 - História do HTML
+## Módulo III
+
+Professor: Ricardo
+
+### Aula 01 - Boas Vindas
+
+### Aula 02 - História do HTML
 
 estrutura de rede
 hipertexto
 
-## Aula 03 - Estrutura Básica
+### Aula 03 - Estrutura Básica
 
 Tags
 Estrutura
 Validador
 
-## Aula 04 - Tags Estruturais
+### Aula 04 - Tags Estruturais
 
-## Aula 05 - Textos, Cabeçalhos
+### Aula 05 - Textos, Cabeçalhos
 
 Cabeçalhos e marcação
 
@@ -21,8 +27,8 @@ Cabeçalhos e marcação
 - paragrafos
 - quebra de linha
 
-## Aula 06 - Links
+### Aula 06 - Links
 
-## Aula 07 - Listas
+### Aula 07 - Listas
 
-## Aula 08 - Tabelas, Mesas e outros
+### Aula 08 - Tabelas, Mesas e outros
