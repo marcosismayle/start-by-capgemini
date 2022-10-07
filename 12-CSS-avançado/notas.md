@@ -201,10 +201,85 @@ Exemplo: @cor
 
 ## Aula 05 - Pós CSS
 
+- É uma ferramenta para transformar CSS com JavaScript.
+- É um ecossistema de plugins personalizados e de ferramentas.
+- Existe mais de 200 pluggins e é possível criar mais.
+- Pode ser usado com pré ou pós processador.
+- Como pós processador, você não terá muito controle do que será feito diferente do que é feito com Less ou Sass.
+- No desenvolvimento podemos usar conceitos já apresentados neste curso, visando evitar repetição de código limpo, organizado de fácil manutenção.
+
+- Exemplo:
+
+Entrada:
+
+    p {
+        display: flex;
+    }
+
+Saída:
+
+    p {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+- podemos usá-lo através de linha comando ou taskrunners.
+- É sempre importante consultar as documentações para entender e tirar melhores benefícios.
+
 ## Aula 06 - Componentes Estilizados
+
+- É uma biblioteca para React/React Native que permite uso de estivos a nível de componentes.
+- É baseada em JavaScript com CSS.
+- [Documentação](https://styled-components.com/docs)
+
+- Principais vantagens:
+    1. Evita erros de nome de classe
+    2. Exclusão mais fácil de CSS: se excluir um componente não usado, todos seus estilos são excluídos juntos. Além disso há ferramentas para detectar se o componente é ou não usado.
+    3. Fácil manutenção.
+- Injeta só os estilos necessários, ou seja, diminui a quantidade de código carregada.
+- Adaptação de estilo de um componente é simples e intuitivo, semprecisar gerenciar vários lugares, às vezes, dezenas de classes.
+- Instalação:
+
+YARN
+
+        yarn add styled-components
+
+NPM
+
+        npm install create-react-app
+
+Criação de um projeto:
+
+        npm init react-app my-app
+
+ou
+
+        npx create-react-app my app
 
 ## Aula 07 - Módulos CSS
 
+- É um processo que ocorre no processo de build, que alteram o nome de classe e seletores para ter escopo local.
+- Geralmente feito por JavaScript.
+- Vem para sanar problemas como dependências. eliminação de código morto e classes globais.
+- É mais vantajoso em projetos grandes.
+- Projetos pequenos pode aumentar a complexidade de froma desnecessária.
+
+### Styled Components VS CSS Modules
+
+- Se você gosta de usar/programar em CSS e/ou se manter um pouco mais conservador, a sugestão é usar CSS Modules.
+- Na prática, é quase o mesmo CSS puro, porém terá o escopo adequado exceto nos casos que deixar a definição de escopo global.
+- Caso não queira e/ou não goste e/ou simplesmente decida não usar CSS, o Styled Components é uma ótima opção.
+- Com ele não terá mais arquivos .css. Usa tudo com JavaScript
+
 ## Aula 08 - Web Components
+
+- Possibilita criar elementos personalizados herdando características de algum já existente.
+- [Documentação](https://developer.mpzilla.org/pt-BR/docs/Web/Web_components/Using_custom_elements)
+
+### Templates
+
+- É formado por APIs JavaScript, as quais permite definir elementos customizados.
+- Permite a criação de Slots, o que dá mais flexibilidade ao código.
 
 ## Aula 09 - Google Mobile
