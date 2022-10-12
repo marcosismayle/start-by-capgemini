@@ -77,13 +77,80 @@ O modificador de acesso padrão, também conhecido como acessibilidade de pacote
 
 ## Aula 07 - Cobranças
 
+### Collections
+
+Uma coleção é uma estrutura de dados que permite armazenar objetos.
+
+Em Java, a coleção também é um objeto.
+
+As operações que podem ser feitas em coleção variam mas normalmenteincluem:
+
+- Adição de elementos
+- Remoção de elementos
+- Acesso aos elementos
+- Pesquisa de elementos
+
+### Arraylist
+
+Arraylist não é um array.
+
+Um **array** é um vetor de objetos  ou tipos primitivos, possui um tamanho fixo informado no momento em que é utilizado.
+
+Um **ArrayList** é uma implementação da interface List, outra implementação desta interface é o LinkedList, como o nome sugere, são implementações de um tipo de dado conhecido como lista
+
 ## Aula 08 - Tópicos Avançados
+
+### Classes Wrapper
+
+Classes Wrapper possuem métodos púplicos disponíveis na subclasse Object.
+Por exemplo: o método **equals**(Object) usamos para comparações, enquanto o **toString** possibilita imprimir o conteúdo de um objeto em formato texto.
+Classes derivadas da subclasse **Number** possuem vários métodos para devolverem um tipo primitivo, tais como: **byteValue()**, **shortValue()**, **intValue**, **longValue()**, **doubleValue()**, **floatValue()**.
+Além disso as classes derivadas de number possuem também o método **compareTo**(Objects) que faz comparações entre objetos **wrapper**.
+
+### Vantagens de usar Tipos Primitivos
+
+- Tipos primitivos são bem rápidos
+- Consomem pouca memória
+- Permitem operações mais complexas
+- São bastantes eficientes em laços e expressões
+
+### Boxing-Unboxing / Encaixotamento
+
+- **Autoboxing (wraping automático): é o processo de conversão automático que um computador faz para que um tipo primitivo passe a ser um objeto utilizando uma classe Wrapper.
 
 ## Aula 09 - Genéricos
 
 ## Aula 10 - Anotações
 
+É um recurso que permite adicionar informações no código fonte.
+
+### Formas de uso no código fonte
+
+- informações para o compilador
+- em tempo de execução
+- o código-fonte pode utlizar essas informações para compilar o código-fonte (.class) ou Deploy no caso de desenvolvimento web (.war)
+
+As Annotations são precedidas de @Override,@Inherited, @Deprecated, etc.
+
+### Uso de anotações
+
+- Documentação, por exemplo, XDoclet
+- Compilação
+- IDE
+- Estrutura de teste, por exemplo, JUnit
+- Recipiente IoC, por exemplo, como Spring
+- Serialização, por exemplo, XML
+- Programação orientada a aspectos (AOP), por exemplo, Spring AOP
+- Servidores de aplicativos, por exemplo, contêiner EJB, serviço da Web
+- Mapeamento objeto-relacional (ORM), por exemplo, Hibernate, JPA
+- e muito mais...
+
 ## Aula 11 - Fios
+
+### Threads
+
+São conjuntos de instruções que podem ser executados dentro de um processo.
+Esse conceito permite que as threads sejam executadas de forma paralela, porém, é importante salientar que o programador não tem controle sobre a sequência de execução dos processos, então, não tem como determinar quem vai executar antes ou depois.
 
 ## Aula 12 - Laços
 
